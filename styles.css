@@ -1,0 +1,103 @@
+html{
+  scroll-behavior: smooth;
+}
+.toplogo {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.toplogo img {
+    height : 10%;
+    width : 30%;
+}
+.carousel-item{
+  width: 500%;
+  height: 250%;
+}
+.carousel-inner img {
+  width: 20%;
+  height: 800px;
+  /* this makes the pictures to take up the whole page */
+}
+.logo{
+  width: 100px;
+  height: 75px;
+}
+.navbar {
+  padding: .8rem;
+}
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-link {
+  font-size: 1.1em !important
+}
+hr{
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+.caption{
+  text-align: center;
+}
+.img-fluid{
+  padding-left: 350px
+}
+h1{
+  text-align: center;
+}
+.display-5{
+  padding: 15px;
+}
+.display-4{
+  padding: 15px;
+}
+
+#dolatabadi{
+  height: 100%;
+  width: 100%%;
+}
+.Dolatabadi-Author{
+  text-align: center;
+}
+.dolatabadi-bio{
+  padding: 1%;
+}
+#googleForm {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.Dolatabadi-paragraph{
+  padding: 2%;
+}
+.Dolatabadi-WC{
+  padding: 1%;
+  text-align: center;
+}
+.WC1{
+  padding-left: 30px ;
+  text-indent: -22px;
+}
+.col-lg-6-1{
+  float: right;
+}
+.col-lg-6{
+  float: left;
+}
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
