@@ -40,9 +40,6 @@ hr{
 .caption{
   text-align: center;
 }
-.img-fluid{
-  padding-left: 350px
-}
 h1{
   text-align: center;
 }
@@ -52,15 +49,20 @@ h1{
 .display-4{
   padding: 40px;
 }
-
-#dolatabadi{
-  height: 100%;
-  width: 100%%;
+#teamPicture{
+  float: left;
+  padding-left: 55%;
 }
-.Dolatabadi-Author{
+
+#discoveries{
+  height: 450px;
+  width: 800px;
+  padding-left: 350px
+}
+.Author{
   text-align: center;
 }
-.dolatabadi-bio{
+.bio{
   padding: 1%;
 }
 #googleForm {
@@ -68,10 +70,10 @@ h1{
   margin-right: auto;
   text-align: center;
 }
-.Dolatabadi-paragraph{
+.paragraph{
   padding: 2%;
 }
-.Dolatabadi-WC{
+.WC{
   padding: 1%;
   text-align: center;
 }
@@ -84,6 +86,17 @@ h1{
 }
 .col-lg-6{
   float: left;
+}
+#picture1{
+  float: left;
+  padding: 6px;
+}
+#picture2{
+  float: right;
+  padding: 6px;
+}
+#join{
+  align-items: center;
 }
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
