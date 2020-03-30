@@ -104,18 +104,18 @@ No media query since this is the default in Bootstrap  */
 Small (sm) devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
 #discoveries{
-  width: 400px;
-  height: 214px;
+  width: 0px;
+  height: 0px;
   }
 }
 
-Medium (md) devices (tablets, 768px and up)
+/* Medium (md) devices (tablets, 768px and up)
 @media (min-width: 768px) {
   #discoveries{
     width: 0px;
     height:0px;
   }
-}
+} */
 
 /* Large (lg) devices (desktops, 992px and up)
 @media (min-width: 992px)
