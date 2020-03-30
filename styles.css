@@ -102,7 +102,7 @@ h1{
 No media query since this is the default in Bootstrap  */
 
 Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
+@media only screen and (min-width: 576px) {
 #discoveries{
   width: 0px;
   height: 0px;
