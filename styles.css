@@ -15,7 +15,7 @@ html{
 }
 .carousel-inner img {
   width: 20%;
-  height: 800px;
+  height: 80%;
   /* this makes the pictures to take up the whole page */
 }
 .logo{
