@@ -112,9 +112,8 @@ Small (sm) devices (landscape phones, 576px and up)
 Medium (md) devices (tablets, 768px and up)
 @media (min-width: 768px) {
   #discoveries{
-    width: 700px;
-    height:375px;
-    padding-left: 350px
+    width: 0px;
+    height:0px;
   }
 }
 
