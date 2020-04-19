@@ -26,11 +26,17 @@ html{
 .nav-link {
   font-size: 1.1em !important
 }
-hr{
+.two-column {
   border-top: 1px solid #d5d5d5;
   width: 75%;
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+.header{
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 .caption{
   text-align: center;
@@ -48,6 +54,9 @@ h1{
   float: left;
   padding-left: 55%;
 }
+#alignPicture{
+  align-self: center;
+}
 .Author{
   text-align: center;
 }
@@ -64,7 +73,7 @@ h1{
   text-align: center;
 }
 .paragraph{
-  padding: 2%;
+  padding: 2.5%;
 }
 .WC{
   padding: 1%;
@@ -81,10 +90,12 @@ h1{
 #picture1{
   float: left;
   padding: 6px;
+  margin-right: 10px
 }
 #picture2{
   float: right;
   padding: 6px;
+  margin-left: 10px
 }
 #join{
   align-items: center;
