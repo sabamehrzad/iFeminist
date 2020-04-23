@@ -100,6 +100,32 @@ h1{
 #join{
   align-items: center;
 }
+.social a{
+  font-size: 2.5em;
+  padding: 1.2rem;
+}
+.fa-facebook{
+  color: #3b5998;
+}
+.fa-twitter{
+  color: #00aced;
+}
+.fa-instagram{
+  color: #517fa8;
+}
+.fa-youtube{
+  color: #bb0000;
+}
+.fa-linkedin{
+  color: ##2867B2;
+}
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+  color: #d5d5d5;
+}
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
