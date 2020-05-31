@@ -127,6 +127,15 @@ h1{
   color: #d5d5d5;
 }
 
+/* Ringgold */
+figcaption{
+  text-align: center;
+}
+
+.Ringgold2{
+  align: center;
+}
+
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
