@@ -119,9 +119,14 @@ h1{
 .fa-linkedin{
   color: ##2867B2;
 }
+.fa-envelope{
+  color: #bb0000;
+}
 .fa-facebook:hover,
 .fa-twitter:hover,
 .fa-google-plus-g:hover,
+.fa-linkedin:hover,
+.fa-envelope:hover,
 .fa-instagram:hover,
 .fa-youtube:hover {
   color: #d5d5d5;
