@@ -132,6 +132,10 @@ h1{
   color: #d5d5d5;
 }
 
+#Connect{
+  padding-bottom: 15px;
+}
+
 /* Ringgold */
 figcaption{
   text-align: center;
@@ -145,6 +149,35 @@ figcaption{
 .bye{
   align: center;
 }
+
+/* Connect With Us Box */
+/* #Updates{
+  padding: 15px;
+  color: #ffffff;
+  background: #ffffff;
+  margin: 0 auto;
+}
+
+#Updates input[type="email"]{
+  padding: 4px;
+  height: 38px;
+  width: 250px;
+}
+
+.button_1{
+  height: 38px;
+  background: #f73d51;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+.email-box{
+  padding: 15px;
+} */
+
+
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
