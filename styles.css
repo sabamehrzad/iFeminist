@@ -133,7 +133,7 @@ h1{
 }
 
 #Connect{
-  padding-bottom: 15px;
+  padding: 10px;
 }
 
 /* Ringgold */
@@ -148,6 +148,44 @@ figcaption{
 /* Join Us */
 .bye{
   align: center;
+}
+/* Mail Chimp Box */
+#mc_embed_signup{
+  margin: auto;
+
+}
+#mc-embedded-subscribe-form{
+  margin: auto;
+  padding: 15px;
+}
+
+.email{
+  padding: 10px;
+  width: 245px;
+}
+
+input.button{
+  height: 38px;
+  background: #f73d51;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 13px;
+  color: #ffffff;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#mailingListTitle{
+  font-family: "Helvetica Neue";
+  font-size: 30px;
+}
+
+.mailchimpForm{
+  margin-left: 150px;
 }
 
 /* Connect With Us Box */
