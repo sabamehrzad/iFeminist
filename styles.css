@@ -188,32 +188,9 @@ input.button{
   margin-left: 150px;
 }
 
-/* Connect With Us Box */
-/* #Updates{
-  padding: 15px;
-  color: #ffffff;
-  background: #ffffff;
-  margin: 0 auto;
+.date{
+  text-align: center;
 }
-
-#Updates input[type="email"]{
-  padding: 4px;
-  height: 38px;
-  width: 250px;
-}
-
-.button_1{
-  height: 38px;
-  background: #f73d51;
-  border: 0;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: #ffffff;
-}
-
-.email-box{
-  padding: 15px;
-}  */
 
 
 
