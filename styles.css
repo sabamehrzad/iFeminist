@@ -50,6 +50,9 @@ h1{
 .display-4{
   padding: 40px;
 }
+.display-3{
+  font-size: 55px;
+}
 #teamPicture{
   float: left;
   padding-left: 55%;
