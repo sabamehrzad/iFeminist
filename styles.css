@@ -121,6 +121,7 @@ h1{
 }
 .fa-linkedin{
   color: ##2867B2;
+  color: #2867B2;
 }
 .fa-envelope{
   color: #bb0000;
@@ -196,6 +197,10 @@ input.button{
 }
 
 
+#bio-resize{
+  width: 300px;
+  height: 386px;
+}
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
