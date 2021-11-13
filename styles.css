@@ -120,6 +120,7 @@ h1{
   color: #bb0000;
 }
 .fa-linkedin{
+  color: ##2867B2;
   color: #2867B2;
 }
 .fa-envelope{
@@ -194,6 +195,7 @@ input.button{
 .date{
   text-align: center;
 }
+
 
 #bio-resize{
   width: 300px;
