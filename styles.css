@@ -53,9 +53,13 @@ h1{
 .display-3{
   font-size: 55px;
 }
+.img-fluid{
+  padding: 5%;
+}
 #teamPicture{
-  float: left;
-  padding-left: 55%;
+  width: 375px;
+  height: 450px;
+  object-fit: cover;
 }
 #alignPicture{
   align-self: center;
@@ -85,6 +89,10 @@ h1{
 .WC1{
   padding-left: 30px ;
   text-indent: -22px;
+}
+.col-lg-6{
+  padding-left: 11.5em;
+  padding-right: 5em;
 }
 .col-lg-6-1{
   float: right;
