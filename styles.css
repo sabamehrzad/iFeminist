@@ -208,6 +208,7 @@ input.button{
 #bio-resize{
   width: 300px;
   height: 386px;
+  object-fit: cover;
 }
 
 /*
