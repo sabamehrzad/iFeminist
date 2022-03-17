@@ -211,13 +211,6 @@ input.button{
   object-fit: cover;
 }
 
-#spencer {
-  display:flex;
-  justify-content: space-between;
-  padding-left: 10em;
-  padding-right: 10em;
-}
-
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
