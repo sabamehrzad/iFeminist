@@ -1,5 +1,6 @@
 html{
   scroll-behavior: smooth;
+  scroll-padding-top: 3rem;
 }
 .toplogo {
     margin-top: 5px;
@@ -24,7 +25,7 @@ html{
   padding-right: 20px;
 }
 .nav-link {
-  font-size: 1.1em !important
+  font-size: 1.1em !important;
 }
 .two-column {
   border-top: 1px solid #d5d5d5;
