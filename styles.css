@@ -128,7 +128,7 @@ h1{
   color: #bb0000;
 }
 .fa-linkedin{
-  color: ##2867B2;
+  color: #2867B2;
   color: #2867B2;
 }
 .fa-envelope{
@@ -210,6 +210,37 @@ input.button{
   height: 386px;
   object-fit: cover;
 }
+
+.team-dropdown {
+  float:left;
+  overflow:hidden;
+}
+
+.team-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8f9fa;
+  /* min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1; */
+}
+
+.team-dropdown-content a {
+  display: block;
+  color: rgba(0,0,0,.5);
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.team-dropdown-content a:hover {
+  color: #212529;
+}
+
+.team-dropdown:hover .team-dropdown-content {
+  display: block;
+}
+
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
