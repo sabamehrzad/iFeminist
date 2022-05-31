@@ -253,6 +253,13 @@ input.button{
   font-size:35px;
 }
 
+a {
+  color: #f73e52;
+}
+
+a:hover {
+  color: #f73e52;
+}
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
