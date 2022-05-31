@@ -1,5 +1,6 @@
 html{
   scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
 }
 .toplogo {
     margin-top: 5px;
@@ -24,7 +25,7 @@ html{
   padding-right: 20px;
 }
 .nav-link {
-  font-size: 1.1em !important
+  font-size: 1.1em !important;
 }
 .two-column {
   border-top: 1px solid #d5d5d5;
@@ -128,7 +129,7 @@ h1{
   color: #bb0000;
 }
 .fa-linkedin{
-  color: ##2867B2;
+  color: #2867B2;
   color: #2867B2;
 }
 .fa-envelope{
@@ -211,9 +212,48 @@ input.button{
   object-fit: cover;
 }
 
-.join-left{
-  text-float: left;
+.team-dropdown {
+  float:left;
+  overflow:hidden;
 }
+
+.team-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8f9fa;
+  /* min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1; */
+}
+
+.team-dropdown-content a {
+  display: block;
+  color: rgba(0,0,0,.5);
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.team-dropdown-content a:hover {
+  color: #212529;
+}
+
+.team-dropdown:hover .team-dropdown-content {
+  display: block;
+}
+
+.subheader{
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: 1.0rem;
+  margin-bottom: 1.0rem;
+}
+
+#subheader {
+  font-size:35px;
+}
+
+
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
