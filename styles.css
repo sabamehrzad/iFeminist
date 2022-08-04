@@ -265,6 +265,200 @@ a:hover {
   filter: blur(8px);
 }
 
+/* Pop Up CSS */
+
+#popup {
+  display:none;
+  position: absolute;
+  margin:0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+.box {
+  width: 20%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid orange;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: orange;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* popup */
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+   /* display: none; */
+}
+
+.contentBox
+{
+  position: relative;
+  width: 900px;
+  height: 600px;
+  background: #fff;
+  background-image: url(img/Home/PopUp/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+#close {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  z-index: 5;
+  border-radius: 5%;
+  border: none;
+  font-family: 'Gabriela', serif;
+  font-size: 2em;
+  color: #212529;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  
+}
+
+#close:hover
+{
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+/* .closePopUp {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-color: #212529;
+  border-width: 50px;
+}
+.closePopUp:hover {
+  opacity: 1;
+} */
+
+/*.closePopUp:before, .closePopUp:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.closePopUp:before {
+  transform: rotate(45deg);
+}
+.closePopUp:after {
+  transform: rotate(-45deg);
+} */
+
+.logoPopUp {
+  position: relative;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin: 20px;
+  object-position: left top;
+  z-index: 3;
+}
+
+.whiteBoxPopUp {
+  background: #fff;
+  width: 700px;
+  height: 450px;
+  position: absolute;
+  display: block; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-left: 90px;
+  padding-top: 10%;
+  z-index: 1;
+}
+
+#popupFont1 {
+  
+  font-family: 'Mohave', sans-serif;
+  font-size: 4em;
+}
+
+#popupFont2 {
+  font-family: 'Gabriela', serif;  
+}
+
+.emailPopUp {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  margin-right: 30px;
+}
+
+form .field input {
+  height: 75px;
+  width: 100%;
+  margin-right: 50px;
+  font-family: 'Gabriela', serif;
+  border: 5px solid #FB6C79;
+  outline: none;
+  text-align: center;
+}
+
+form .fieldButton input {
+  height: 75px;
+  width: 100%;
+  margin-left: 20px;
+  font-family: 'Mohave', sans-serif;
+  border: 0;
+  font-size: 2em;
+  color: #fff;
+  background-color: #FB6C79;
+}
+
+
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
