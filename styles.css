@@ -62,7 +62,7 @@ h1{
   height: 450px;
   object-fit: cover;
 }
-#alignPicture{
+.alignPicture{
   align-self: center;
 }
 .Author{
@@ -74,7 +74,7 @@ h1{
   margin-right: auto;
   text-align: center;
 }
-#intro{
+.intro{
   padding-left: 3%
 }
 .newArticles{
@@ -155,12 +155,12 @@ figcaption{
 }
 
 .Ringgold2{
-  align: center;
+  align-self: center;
 }
 
 /* Join Us */
 .bye{
-  align: center;
+  align-self: center;
 }
 /* Mail Chimp Box */
 #mc_embed_signup{
@@ -206,7 +206,7 @@ input.button{
 }
 
 
-#bio-resize{
+.bio-resize{
   width: 300px;
   height: 386px;
   object-fit: cover;
