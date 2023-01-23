@@ -109,6 +109,17 @@ h1{
   padding: 6px;
   margin-left: 10px
 }
+/* picture1/picture2 classes for newer articles */
+.picture1{
+  float: left;
+  padding: 6px;
+  margin-right: 10px
+}
+.picture2{
+  float: right;
+  padding: 6px;
+  margin-left: 10px
+}
 #join{
   align-items: center;
 }
