@@ -57,7 +57,7 @@ h1{
 .img-fluid{
   padding: 5%;
 }
-#teamPicture{
+.teamPicture{
   width: 375px;
   height: 450px;
   object-fit: cover;
@@ -258,6 +258,11 @@ input.button{
   width: 75%;
   margin-top: 1.0rem;
   margin-bottom: 1.0rem;
+}
+
+/* Subheader for team page sections */
+.team-subheader{
+  font-size:35px;
 }
 
 #subheader {
