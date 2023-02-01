@@ -277,10 +277,10 @@ a:hover {
   color: #f73e52;
 }
 
-/* Uncomment below only when applications are open */
-/* #open-positions {
+/* Uncomment below only when applications are closed */
+#open-positions {
   filter: blur(8px);
-} */
+}
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
