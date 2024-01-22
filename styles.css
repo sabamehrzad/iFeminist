@@ -283,6 +283,18 @@ a:hover {
   filter: blur(8px);
 }
 
+.search button {
+  background-color: #f73d51;
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.search button:hover {
+  background-color: #f1838e;
+}
+
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
