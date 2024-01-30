@@ -50,13 +50,16 @@
         <a class="nav-link" href="index.html#Connect">Connect</a>
       </li>
     </ul>
-    <!-- <div class="search">
-      <form action="/search_results">
-        <input type="text" name="query" placeholder="Find HERstory...">
-        <button type="submit">Go</button>
-      </form>
-    </div> -->
-</div>
+    <div class="search">
+      <div class="search">
+        <form action="/search_results">
+          <input type="text" id="searchInput" oninput="searchArticles()" placeholder="Find HERstory...">
+          <button type="submit">Go</button>
+          <div id="searchResults"></div>
+        </form>
+    </div>
+  </div>
+<script src="script.js"></script>
 </nav>
 
 <!-- Our Discoveries Title -->
@@ -463,7 +466,7 @@
 <hr class="two-column">
 
 <!-- Katya Echazarreta -->
-<div class="container-fluid padding">
+<div id="echazarreta" class="container-fluid padding">
   <div class="row padding">
     <div class="col-lg-9 intro">
       <h2>Katya Echazarreta (1996 - Present)</h2>
