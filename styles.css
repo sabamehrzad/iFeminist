@@ -295,6 +295,13 @@ a:hover {
   background-color: #f1838e;
 }
 
+.Audio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
