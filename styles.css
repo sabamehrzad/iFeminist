@@ -279,9 +279,9 @@ a:hover {
 }
 
 /* Uncomment below only when applications are closed */
-#open-positions {
+/* #open-positions {
   filter: blur(8px);
-}
+} */
 
 .search button {
   background-color: #f73d51;
