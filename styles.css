@@ -318,6 +318,28 @@ li button:hover {
   background-color: #f1838e;
 }
 
+.podcast {
+  height: 225px;
+  width: auto;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+}
+
+.section {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.section:last-child {
+  border-right: none;
+}
+
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
