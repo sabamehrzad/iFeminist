@@ -302,7 +302,7 @@ a:hover {
   margin-top: 25px;
 }
 
-li button {
+button {
   background-color: #f73d51;
   padding-right: 15px;
   padding-left: 15px;
@@ -314,8 +314,13 @@ li button {
   cursor: pointer;
 }
 
-li button:hover {
+button:hover {
   background-color: #f1838e;
+}
+
+h2 button {
+  position: relative;
+  top: -5px;
 }
 
 .podcast {
