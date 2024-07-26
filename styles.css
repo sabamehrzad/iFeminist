@@ -339,6 +339,7 @@ h2 button {
   flex: 1;
   padding: 20px;
   text-align: center;
+  display: flexbox;
 }
 
 .section:last-child {
