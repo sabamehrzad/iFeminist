@@ -331,7 +331,7 @@ h2 button {
 }
 
 .container {
-  display: flex;
+  display: inline-flex;
   width: 80%;
 }
 
@@ -339,7 +339,7 @@ h2 button {
   flex: 1;
   padding: 20px;
   text-align: center;
-  display: flexbox;
+  display: flexbox-inline;
 }
 
 .section:last-child {
