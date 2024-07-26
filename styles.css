@@ -333,6 +333,7 @@ h2 button {
 .container {
   display: inline-flex;
   width: 80%;
+  overflow: hidden;
 }
 
 .section {
