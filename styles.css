@@ -337,12 +337,6 @@ h1 button {
   border: 2px solid black;
 }
 
-.container {
-  display: flex;
-  width: 80%;
-  overflow: hidden;
-}
-
 .section {
   flex: 1;
   padding: 20px;
